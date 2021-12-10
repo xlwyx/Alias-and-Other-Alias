@@ -1,0 +1,16 @@
+/* custom_alias */
+
+# Alias for ls.
+
+alias l='ls -l'
+alias ld='ls -lA'
+alias lh='ls -lhA'
+
+# Other Alias.
+
+alias gp='grep'
+alias his='history -c && history -w'
+doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
+
+nerdfetch
+figlet 'log  by  log!'
