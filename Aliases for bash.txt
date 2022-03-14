@@ -8,10 +8,11 @@ alias lh='ls -lhA'
 
 # Other Alias.
 
-alias gp='grep'
+alias gp='grep -i'
 alias his='history -c && history -w'
 alias ac='acpi -b'
+alias cat='bat -n'
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 nerdfetch
-figlet 'log  by  log!'
+figlet 'Artix  Full  Retro!'
