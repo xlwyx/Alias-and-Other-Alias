@@ -1,13 +1,11 @@
 /* custom_alias */
 
 # Alias for ls.
-
-alias l='ls -l'
-alias ld='ls -lA'
+alias la='ls -a'
+alias ll='ls -li'
 alias lh='ls -lhA'
 
 # Other Alias.
-
 alias gp='grep -i'
 alias his='history -c && history -w'
 alias ac='acpi -b'
