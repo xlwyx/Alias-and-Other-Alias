@@ -1,0 +1,18 @@
+/* custom_alias */
+
+# Alias for ls.
+alias la='ls -a'
+alias ll='ls -li'
+alias lh='ls -lhA'
+
+# Other Alias.
+alias gp='grep -i'
+alias his='history -c'
+alias ac='acpi -b'
+alias cat='bat -n'
+doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
+
+nerdfetch
+figlet 'It  be  must  underground  with  URxvt,  set preload !'
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
