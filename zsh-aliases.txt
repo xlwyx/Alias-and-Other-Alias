@@ -10,6 +10,7 @@ alias gp='grep -i'
 alias his='history -c'
 alias ac='acpi -b'
 alias cat='bat -n'
+alias ec='echo'
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 nerdfetch
