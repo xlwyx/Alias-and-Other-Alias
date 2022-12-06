@@ -1,0 +1,39 @@
+
+# ls aliases
+alias la='ls -a'
+alias li='ls -li'
+alias lh='ls -lhA'
+
+# Other Aliases
+alias gp='grep -i'
+alias his='history clear'
+alias ac='acpi -b'
+alias cat='bat -n --decorations always --color auto'
+alias ydp='yt-dlp -f'
+alias v='vim'
+alias vi='doas vim'
+alias ec='echo -e'
+alias spec='man spectrwm'
+alias clone='git clone'
+
+
+# pacman aliases
+alias setmirr='rankmirrors -v -n 5 /etc/pacman.d/mirrorlist'
+alias uppac='doas pacman -Syu'
+alias sepac='pacman -Ss'
+alias inst='doas pacman -S'
+alias paccache='doas pacman -Sc'
+alias pacsyc='doas pacman Syy'
+alias rmpac='doas pacman -R'
+
+
+# Extras
+printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
+
+figlet ' Sveiki visi!! '
+
+toilet -t --metal Vienmēr, fish-shell !
+
+toilet -t --metal Nepiedodamas melodijas ...
+
+nerdfetch
