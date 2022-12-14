@@ -7,7 +7,7 @@ alias lh='ls -lhA'
 
 # Other Aliases
 alias gp='grep -i'
-alias his='history clear'
+alias his='history -c && history -w'
 alias ac='acpi -b'
 alias cat='bat -n --decorations always --color auto'
 alias ydp='yt-dlp -f'
