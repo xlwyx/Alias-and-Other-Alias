@@ -12,5 +12,11 @@ alias ac='acpi -b'
 alias cat='bat -n'
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
+figlet ' Sveiki!! '
+
+toilet -t --metal vienmēr, fish-shell !
+
+toilet -t --metal brīnišķīga simfonija ...
+
+
 nerdfetch
-figlet 'Artix  Full  Retro!'
