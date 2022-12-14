@@ -30,10 +30,11 @@ alias rmpac='doas pacman -R'
 # Extras
 printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
 
-figlet ' Sveiki visi!! '
+figlet ' Sveiki!! '
 
-toilet -t --metal Vienmēr, fish-shell !
+toilet -t --metal vienmēr, fish-shell !
 
-toilet -t --metal Nepiedodamas melodijas ...
+toilet -t --metal brīnišķīga simfonija ...
+
 
 nerdfetch
