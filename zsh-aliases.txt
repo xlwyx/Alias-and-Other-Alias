@@ -14,6 +14,12 @@ alias ec='echo'
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 nerdfetch
-figlet 'It  be  must  underground  with  URxvt,  set preload !'
+
+figlet ' Sveiki!! '
+
+toilet -t --metal vienmēr, fish-shell !
+
+toilet -t --metal brīnišķīga simfonija ...
+
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
