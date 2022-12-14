@@ -5,11 +5,18 @@ alias la='ls -a'
 alias li='ls -li'
 alias lh='ls -lhA'
 
-# Other Alias.
+# Other Aliases
 alias gp='grep -i'
-alias his='history -c && history -w'
+alias his='history clear'
 alias ac='acpi -b'
-alias cat='bat -n'
+alias cat='bat -n --decorations always --color auto'
+alias ydp='yt-dlp -f'
+alias v='vim'
+alias vi='doas vim'
+alias ec='echo -e'
+alias spec='man spectrwm'
+alias clone='git clone'
+
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 figlet ' Sveiki!! '
