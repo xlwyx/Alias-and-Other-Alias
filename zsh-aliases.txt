@@ -17,9 +17,10 @@ nerdfetch
 
 figlet ' Sveiki!! '
 
-toilet -t --metal vienmēr, fish-shell !
+toilet -t --metal Visada, OH-MY-BASH !
 
-toilet -t --metal brīnišķīga simfonija ...
+toilet -t --metal Nuostabus simpatija ...
 
+toilet -t --metal Ilga istorija laukia tavęs..!
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
