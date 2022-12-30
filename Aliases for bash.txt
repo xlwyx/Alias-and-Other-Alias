@@ -21,9 +21,10 @@ doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 figlet ' Sveiki!! '
 
-toilet -t --metal vienmēr, fish-shell !
+toilet -t --metal Visada, OH-MY-BASH !
 
-toilet -t --metal brīnišķīga simfonija ...
+toilet -t --metal Nuostabus simpatija ...
 
+toilet -t --metal Ilga istorija laukia tavęs..!nerdfetch
 
 nerdfetch
