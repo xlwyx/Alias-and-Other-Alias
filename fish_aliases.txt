@@ -32,11 +32,10 @@ printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
 
 figlet ' Labdien!! '
 
-toilet -t --metal Vienmēr, OH-MY-BASH !
+toilet -t --metal Vienmēr, OH-MY-FISH !
 
-toilet -t --metal Nepiedodams melodijas ...
+toilet -t --metal dziļas atmiņas...
 
-toilet -t salauztas sirdis..!
+toilet -t dvīņu dvēseles..!
 
-toilet -t --rainbow !Vēsture, kas jūs gaidīja...!
-
+toilet -t --gay ¡saulainā diena !
