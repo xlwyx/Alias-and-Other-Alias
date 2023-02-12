@@ -9,8 +9,11 @@ alias lh='ls -lhA'
 alias gp='grep -i'
 alias his='history -c'
 alias ac='acpi -b'
-alias cat='bat -n'
+alias cat='bat -n --decorations always --color auto'
 alias ec='echo'
+alias n='nano'
+alias dna='doas nano'
+alias ydp='yt-dlp -f'
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 nerdfetch
