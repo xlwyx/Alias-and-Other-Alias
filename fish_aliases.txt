@@ -17,7 +17,7 @@ alias spec='man spectrwm'
 alias clone='git clone'
 
 
-# pacman aliases
+# pacman aliases // This is Arch, Artix Linux or derivaties //
 alias setmirr='rankmirrors -v -n 5 /etc/pacman.d/mirrorlist'
 alias uppac='doas pacman -Syu'
 alias sepac='pacman -Ss'
@@ -26,16 +26,12 @@ alias paccache='doas pacman -Sc'
 alias pacsyc='doas pacman Syy'
 alias rmpac='doas pacman -R'
 
-
 # Extras
 printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
 
-figlet ' Labdien!! '
+figlet ' Merhaba!! '
+toilet -t --metal Her zaman, Oh-my-zsh !!
+toilet -t --metal derin anılar...
+toilet -t ikiz ruhlar..!
+toilet -t --gay ¡güneşli günler !
 
-toilet -t --metal Vienmēr, OH-MY-FISH !
-
-toilet -t --metal dziļas atmiņas...
-
-toilet -t dvīņu dvēseles..!
-
-toilet -t --gay ¡saulainā diena !
