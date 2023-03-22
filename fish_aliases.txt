@@ -1,10 +1,47 @@
 
-# ls aliases
+## STAR THE FUNCTIONS ##
+# Functions for printing a column (splits input on whitespaces)
+# ex: echo 1 2 3 | coln 3
+# output 3
+function coln
+    while read -l input
+        echo $input | awk '{print $'$argv[1]'}'
+    end
+end
+
+# function for printing a row
+# ex: seq 3 | rown 3
+# output 3
+function rown --argument index
+ set -n "$index -p"
+end
+
+# function for ignoring the first 'n' lines
+# ex: seq 10 | skip 5
+# result: prints everything but the fisrt 5 lines
+function skip --argument n
+    tail +(math 1 + $n)
+end
+
+# function for taking the first 'n' lines
+# ex: seq 10 | take 5
+# result: print only the first 5 lines
+function take --argument number
+    head -$number
+end
+## END OF THE FUNCTIONS ##
+
+## EXPORT ##
+set fish_greetings
+set TERM "xterm-256color"
+set -e fish_user_paths
+set -U fish_user_paths $HOME/.local/bin $fish_user_paths
+
+
+## ALIASES ##
 alias la='ls -a'
 alias li='ls -li'
 alias lh='ls -lhA'
-
-# Other Aliases
 alias gp='grep -i'
 alias his='history clear'
 alias ac='acpi -b'
@@ -13,25 +50,22 @@ alias ydp='yt-dlp -f'
 alias v='vim'
 alias vi='doas vim'
 alias ec='echo -e'
-alias spec='man spectrwm'
 alias clone='git clone'
+alias free='free -m'
 
-
-# pacman aliases // This is Arch, Artix Linux or derivaties //
-alias setmirr='rankmirrors -v -n 5 /etc/pacman.d/mirrorlist'
-alias uppac='doas pacman -Syu'
-alias sepac='pacman -Ss'
-alias inst='doas pacman -S'
-alias paccache='doas pacman -Sc'
-alias pacsyc='doas pacman Syy'
-alias rmpac='doas pacman -R'
 
 # Extras
 printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
 
-figlet ' Merhaba!! '
-toilet -t --metal Her zaman, Oh-my-zsh !!
-toilet -t --metal derin anılar...
-toilet -t ikiz ruhlar..!
-toilet -t --gay ¡güneşli günler !
+# Set colors in fish-shell
+set di '00;32' && eval (dircolors -b ~/.dir_colors) && dircolors -p > ~/.dir_colors
+
+# letters
+figlet ' Saluton!!! '
+toilet -t --metal Ĉiam, Oh-my-fish !!
+toilet -t --metal Profundaj memoroj...
+toilet -t ĝemelaj animoj..!
+toilet -t --gay ¡Sunplena tago !
+
+nerdfetch
 
