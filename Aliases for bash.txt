@@ -19,12 +19,11 @@ alias clone='git clone'
 
 doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
-figlet ' Sveiki!! '
 
-toilet -t --metal Visada, OH-MY-BASH !
-
-toilet -t --metal Nuostabus simpatija ...
-
-toilet -t --metal Ilga istorija laukia tavęs..!nerdfetch
+figlet ' Sveiki !! '
+toilet -t --metal Visada, Oh-my-zsh !!
+toilet -t --metal gilūs prisiminimai...
+toilet -t sielos dvynės..!
+toilet -t --gay ¡Saulėtos dienos !
 
 nerdfetch
