@@ -61,11 +61,11 @@ printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
 set di '00;32' && eval (dircolors -b ~/.dir_colors) && dircolors -p > ~/.dir_colors
 
 # letters
-figlet ' Saluton!!! '
-toilet -t --metal Ĉiam, Oh-my-fish !!
-toilet -t --metal Profundaj memoroj...
-toilet -t ĝemelaj animoj..!
-toilet -t --gay ¡Sunplena tago !
+figlet ' Sveiki !! '
+toilet -t --metal Visada, Oh-my-zsh !!
+toilet -t --metal gilūs prisiminimai...
+toilet -t sielos dvynės..!
+toilet -t --gay ¡Saulėtos dienos !
 
 nerdfetch
 
