@@ -18,9 +18,9 @@ doas tee /sys/class/backlight/amdgpu_bl0/brightness <<< 60
 
 nerdfetch
 
-figlet ' Merhaba!! '
-toilet -t --metal Her zaman, Oh-my-zsh !!
-toilet -t --metal derin anılar...
-toilet -t ikiz ruhlar..!
-toilet -t --gay ¡güneşli günler !
+figlet ' Sveiki !! '
+toilet -t --metal Visada, Oh-my-zsh !!
+toilet -t --metal gilūs prisiminimai...
+toilet -t sielos dvynės..!
+toilet -t --gay ¡Saulėtos dienos !
 
